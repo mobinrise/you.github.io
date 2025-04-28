@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // Function to scroll to the top of the page when logo is clicked
+        function scrollToTop() {
+          document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
+        }
+      </script>
+      
+    <link rel="stylesheet" href="styles.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+        <a href="javascript:void(0);" class="logo" onclick="scrollToTop()">
+            <img src="your-logo-url.png" alt="Logo" class="logo-img">
+          </a>
+          
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#who-we-are">Who We Are</a></li>
+        <li><a href="#email-signup">Email Signup</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Welcome Image Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Landing Page</h1>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="section-content">
+      <h2>About Us</h2>
+      <p>We are a team of passionate developers and designers.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="section-content">
+      <h2>Our Projects</h2>
+      <p>Explore the amazing projects we have worked on.</p>
+    </div>
+  </section>
+
+  <!-- Who We Are Section -->
+  <section id="who-we-are" class="section">
+    <div class="section-content">
+      <h2>Who We Are</h2>
+      <p>Learn more about our mission and vision.</p>
+    </div>
+  </section>
+
+  <!-- Email Signup Section -->
+  <section id="email-signup" class="section">
+    <div class="section-content">
+      <h2>Sign Up for Our Newsletter</h2>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="section-content">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out to us!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
